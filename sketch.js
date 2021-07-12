@@ -106,40 +106,40 @@ function draw() {
 
     if (pos.y > 500) {
       if ((pos.x > 0 && pos.x < 80) || (pos.x > 720 && pos.x < 800)) {
-        score = score + 500;
         particle = null;
+        score = score + 500;
         if (turn <= 0) {
           gameState = "end";
         }
       }
 
       if ((pos.x > 80 && pos.x < 160) || (pos.x > 640 && pos.x < 720)) {
-        score = score + 400;
         particle = null;
+        score = score + 400;
         if (turn <= 0) {
           gameState = "end";
         }
       }
 
       if ((pos.x > 160 && pos.x < 240) || (pos.x > 560 && pos.x < 640)) {
-        score = score + 300;
         particle = null;
+        score = score + 300;
         if (turn <= 0) {
           gameState = "end";
         }
       }
 
       if ((pos.x > 240 && pos.x < 320) || (pos.x > 480 && pos.x < 560)) {
-        score = score + 200;
         particle = null;
+        score = score + 200;
         if (turn <= 0) {
           gameState = "end";
         }
       }
 
       if (pos.x > 320 && pos.x < 480) {
-        score = score + 100;
         particle = null;
+        score = score + 100;
         if (turn <= 0) {
           gameState = "end";
         }
