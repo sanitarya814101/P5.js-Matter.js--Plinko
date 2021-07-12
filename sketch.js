@@ -105,7 +105,7 @@ function draw() {
     var pos = particle.body.position;
 
     if (pos.y > 500) {
-      if ((pos.x > 0 && pos.x < 80) || (pos.x > 720 && pos.y < 800)) {
+      if ((pos.x > 0 && pos.x < 80) || (pos.x > 720 && pos.x < 800)) {
         score = score + 500;
         particle = null;
         if (turn <= 0) {
@@ -113,7 +113,7 @@ function draw() {
         }
       }
 
-      if ((pos.x > 80 && pos.x < 160) || (pos.x > 640 && pos.y < 720)) {
+      if ((pos.x > 80 && pos.x < 160) || (pos.x > 640 && pos.x < 720)) {
         score = score + 400;
         particle = null;
         if (turn <= 0) {
@@ -121,7 +121,7 @@ function draw() {
         }
       }
 
-      if ((pos.x > 160 && pos.x < 240) || (pos.x > 560 && pos.y < 640)) {
+      if ((pos.x > 160 && pos.x < 240) || (pos.x > 560 && pos.x < 640)) {
         score = score + 300;
         particle = null;
         if (turn <= 0) {
@@ -129,7 +129,7 @@ function draw() {
         }
       }
 
-      if ((pos.x > 240 && pos.x < 320) || (pos.x > 480 && pos.y < 560)) {
+      if ((pos.x > 240 && pos.x < 320) || (pos.x > 480 && pos.x < 560)) {
         score = score + 200;
         particle = null;
         if (turn <= 0) {
